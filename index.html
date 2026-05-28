@@ -1248,23 +1248,16 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 
    <div class="tabs-scroll">
-<button class="tab active" data-cat="all">🍽️ All Items</button>
-<button class="tab" data-cat="Main Course Veg">🥦 Main Course Veg</button>
-<button class="tab" data-cat="Starters">🥗 Veg Starters</button>
-<button class="tab" data-cat="Chinese">🥢 Veg Chinese</button>
-<button class="tab" data-cat="Rice">🍚 Veg Rice</button>
-<button class="tab" data-cat="Papad & Salad">🥗 Papad & Salad</button>
-<button class="tab" data-cat="Breads">🫓 Indian Breads</button>
-<button class="tab" data-cat="Thali">🍛 Thali Special</button>
-<button class="tab" data-cat="Chicken">🍗 Chicken Special</button>
-<button class="tab" data-cat="Mutton">🍖 Mutton Special</button>
-<button class="tab" data-cat="Egg">🥚 Egg</button>
-<button class="tab" data-cat="Fish">🐟 Fish Special</button>
-<button class="tab" data-cat="Non-Veg Rice">🍛 Non-Veg Rice</button>
-<button class="tab" data-cat="Non-Veg Chinese">🍜 Non-Veg Chinese</button>
-<button class="tab" data-cat="Extras">🍲 Extras & Rassa</button>
-<button class="tab" data-cat="Making Charges">👨‍🍳 Making Charges</button>
-
+<button class="tab active" data-cat="all">🍽️ सर्व पदार्थ</button>
+<button class="tab" data-cat="स्टार्टर">🥗 स्टार्टर</button>
+<button class="tab" data-cat="फ्राय डिशेस">🐟 फिश फ्राय विशेष</button>
+<button class="tab" data-cat="करीस्">🍲 रस्सा / करी</button>
+<button class="tab" data-cat="चटपटीत / झणझणीत">🔥 चटपटीत / झणझणीत</button>
+<button class="tab" data-cat="थाळीस">🍗 नॉन-व्हेज थाळी</button>
+<button class="tab" data-cat="बिर्याणी आणि राईस">🍚 बिर्याणी आणि राईस</button>
+<button class="tab" data-cat="व्हेज थाळी">🍛 व्हेज थाळी</button>
+<button class="tab" data-cat="व्हेज डिशेस">🥦 व्हेज डिशेस</button>
+<button class="tab" data-cat="रोटी आणि भाकरी">🫓 रोटी आणि भाकरी</button>
    
    </div>  
                 </div>
@@ -1411,9 +1404,81 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         // Menu Data - FIXED VERSION
         const data = [
               
-
-
-
+{"id": 1, "cat": "स्टार्टर", "name": "Prawns Samosa | प्रॉन्स समोसा", "price": "Rs. 150", "desc": "चवदार आणि मसालेदार कोळंबीचे (प्रॉन्स) सारण भरून कुरकुरीत तळेलेला खमंग समोसा.", "tags": ["Non-Veg", "Starter"], "img": "img/prawns_samosa.jpeg"},
+{"id": 2, "cat": "स्टार्टर", "name": "सुरमई समोसा | Surmai Samosa", "price": "Rs. 160", "desc": "सुरमई माशाचा खिमा आणि विशेष मसाल्यांचे मिश्रण असलेला कुरकुरीत सोनेरी समोसा.", "tags": ["Non-Veg", "Starter"], "img": "img/surmai_samosa.jpeg"},
+{"id": 3, "cat": "स्टार्टर", "name": "फिश रोल | Fish Roll", "price": "Rs. 150", "desc": "मसालेदार माशाचे काप कुरकुरीत कव्हरमध्ये व्यवस्थित गुंडाळून तळलेला चवदार रोल.", "tags": ["Non-Veg", "Starter"], "img": "img/fish_roll.jpeg"},
+{"id": 4, "cat": "स्टार्टर", "name": "फ्रेंच फ्राईस | French Fries", "price": "Rs. 110", "desc": "बटाट्याचे लांब काप करून क्रिस्पी सोनेरी रंगावर तळलेले सर्वांचे आवडते फ्रेंच फ्राईस.", "tags": ["Veg", "Starter"], "img": "img/french_fries.jpeg"},
+{"id": 5, "cat": "स्टार्टर", "name": "चिकन मोमोस | Chicken Momos", "price": "Rs. 110", "desc": "बारीक चिरलेले चिकन आणि मसाल्यांचे सारण भरून वाफेवर शिजवलेले गरमागरम मोमोस.", "tags": ["Non-Veg", "Starter"], "img": "img/chicken_momos.jpeg"},
+{"id": 6, "cat": "स्टार्टर", "name": "व्हेज मोमोस | Veg Momos", "price": "Rs. 100", "desc": "निवडक ताज्या भाज्या आणि हलक्या मसाल्यांचे सारण भरून वाफवलेले मऊ मोमोस.", "tags": ["Veg", "Starter"], "img": "img/veg_momos.jpeg"},
+{"id": 7, "cat": "फ्राय डिशेस", "name": "मांदेली फ्राय | Mandeli Fry", "price": "Rs. 120", "desc": "ताज्या मांदेली माशांना रव्याचं कोटिंग लावून कुरकुरीत डीप-फ्राय केलेली डिश.", "tags": ["Non-Veg", "Starter"], "img": "img/mandeli_fry.jpeg"},
+{"id": 8, "cat": "फ्राय डिशेस", "name": "सुरमई फ्राय | Surmai Fry", "price": "APS", "desc": "सुरमई माशाचे मोठे काप कोकणी मसाल्यात मॅरिनेट करून तव्यावर खमंग फ्राय केलेले (किंमत आकाराप्रमाणे).", "tags": ["Non-Veg", "Starter"], "img": "img/surmai_fry.jpeg"},
+{"id": 9, "cat": "फ्राय डिशेस", "name": "पापलेट फ्राय | Paplet Fry", "price": "APS", "desc": "अख्खा फ्रेश पापलेट मासा पारंपारिक मसाल्यांमध्ये घोळवून कुरकुरीत तळलेला (किंमत आकाराप्रमाणे).", "tags": ["Non-Veg", "Starter"], "img": "img/paplet_fry.jpeg"},
+{"id": 10, "cat": "फ्राय डिशेस", "name": "कोळंबी फ्राय | Kolambi Fry", "price": "APS", "desc": "चमचमीत मसाल्यात कोट केलेली आणि वरून कुरकुरीत तळेलेली गरमागरम कोळंबी फ्राय (किंमत आकाराप्रमाणे).", "tags": ["Non-Veg", "Starter"], "img": "img/kolambi_fry.jpeg"},
+{"id": 11, "cat": "फ्राय डिशेस", "name": "बांगडा फ्राय | Bangda Fry", "price": "Rs. 200", "desc": "झणझणीत कोस्टल मसाल्यांचा थर देऊन आणि रव्यात घोळवून कुरकुरीत फ्राय केलेला बांगडा.", "tags": ["Non-Veg", "Starter"], "img": "img/bangda_fry.jpeg"},
+{"id": 12, "cat": "फ्राय डिशेस", "name": "बोबील फ्राय | Bombil Fry", "price": "Rs. 200", "desc": "खास मालवणी पद्धतीने बनवलेले, बाहेरून अतिशय कुरकुरीत आणि आतून मऊ असलेले बोंबील फ्राय.", "tags": ["Non-Veg", "Starter"], "img": "img/bombil_fry.jpeg"},
+{"id": 13, "cat": "फ्राय डिशेस", "name": "चिलापी फ्राय | Chilapi Fry", "price": "Rs. 200", "desc": "फ्रेश चिलापी मासा घरगुती लाल मसाल्यात मॅरिनेट करून तव्यावर छान फ्राय केलेला.", "tags": ["Non-Veg", "Starter"], "img": "img/chilapi_fry.jpeg"},
+{"id": 14, "cat": "फ्राय डिशेस", "name": "कटला फ्राय | Katla Fry", "price": "Rs. 200", "desc": "नदीतील ताज्या कटला माशाचे काप स्थानिक मसाल्यांमध्ये घोळवून तव्यावर खमंग भाजलेले.", "tags": ["Non-Veg", "Starter"], "img": "img/katla_fry.jpeg"},
+{"id": 15, "cat": "फ्राय डिशेस", "name": "सुकट प्लेट | Sukat Plate", "price": "Rs. 80", "desc": "बारीक सुक्या शेवंड्या (सुकट) कांदा, टोमॅटो आणि तिखट मसाल्यांसोबत छान परतलेली चवदार डिश.", "tags": ["Non-Veg", "Starter"], "img": "img/sukat_plate.jpeg"},
+{"id": 16, "cat": "करीस्", "name": "सुरमई करी | Surmai Curry", "price": "Rs. 350", "desc": "अस्सल कोस्टल पद्धतीची, खोबऱ्याचे वाटण घालून बनवलेली आंबट-तिखट आणि सुवासिक सुरमई करी.", "tags": ["Non-Veg", "Main Course"], "img": "img/surmai_curry.jpeg"},
+{"id": 17, "cat": "करीस्", "name": "पापलेट करी | Paplet Curry", "price": "Rs. 400", "desc": "ताजा पापलेट मासा खोबऱ्याचे दूध आणि मसाल्यांच्या रिच ग्रेव्हीत संथ आचेवर शिजवलेला.", "tags": ["Non-Veg", "Main Course"], "img": "img/paplet_curry.jpeg"},
+{"id": 18, "cat": "करीस्", "name": "बांगडा करी | Bangda Curry", "price": "Rs. 300", "desc": "पारंपरिक पद्धतीने बनवलेली, कोकणी मसाल्यांचा कडक स्वाद असलेली चमचमीत बांगडा करी.", "tags": ["Non-Veg", "Main Course"], "img": "img/bangda_curry.jpeg"},
+{"id": 19, "cat": "करीस्", "name": "कोळंबी करी | Kolambi Curry", "price": "Rs. 400", "desc": "मऊ आणि रसरशीत कोळंबी पारंपरिक कोस्टल ग्रेव्हीत शिजवून तयार केलेली चवदार करी.", "tags": ["Non-Veg", "Main Course"], "img": "img/kolambi_curry.jpeg"},
+{"id": 20, "cat": "करीस्", "name": "बोबील करी | Bombil Curry", "price": "Rs. 250", "desc": "ताजे मऊ बोंबील मासे तिखट आणि मसालेदार प्रादेशिक रश्यामध्ये हलक्या हाताने शिजवलेले.", "tags": ["Non-Veg", "Main Course"], "img": "img/bombil_curry.jpeg"},
+{"id": 21, "cat": "करीस्", "name": "कटला करी | Katla Curry", "price": "Rs. 250", "desc": "ताज्या कटला माशाचे तुकडे कांदा-टोमॅटो आणि घरगुती मसाल्यांच्या रश्यामध्ये शिजवलेले.", "tags": ["Non-Veg", "Main Course"], "img": "img/katla_curry.jpeg"},
+{"id": 22, "cat": "चटपटीत / झणझणीत", "name": "कोळंबी लपेटा | Kolambi Lapeta", "price": "Rs. 350", "desc": "घट्ट, लडबडीत आणि अंगासरश्या झणझणीत मसाल्यात लपेटलेली रसरशीत कोळंबी.", "tags": ["Non-Veg", "Main Course"], "img": "img/kolambi_lapeta.jpeg"},
+{"id": 23, "cat": "चटपटीत / झणझणीत", "name": "सुरमई मसाला | Surmai Masala", "price": "Rs. 400", "desc": "आधी फ्राय केलेला सुरमईचा तुकडा दाट, तिखट आणि चमचमीत लाल ग्रेव्हीत रटरटवून शिजवलेला.", "tags": ["Non-Veg", "Main Course"], "img": "img/surmai_masala.jpeg"},
+{"id": 24, "cat": "चटपटीत / झणझणीत", "name": "पापलेट मसाला | Paplet Masala", "price": "Rs. 450", "desc": "अख्खा ताजा पापलेट मासा घट्ट, मसालेदार आणि झणझणीत सुक्या मसाल्याच्या ग्रेव्हीत तयार केलेला.", "tags": ["Non-Veg", "Main Course"], "img": "img/paplet_masala.jpeg"},
+{"id": 25, "cat": "चटपटीत / झणझणीत", "name": "बांगडा मसाला | Bangda Masala", "price": "Rs. 300", "desc": "बांगड्याचे तुकडे पारंपारिक सुक्या मसाल्याच्या आणि खोबऱ्याच्या दाट वाटणात शिजवलेले.", "tags": ["Non-Veg", "Main Course"], "img": "img/bangda_masala.jpeg"},
+{"id": 26, "cat": "चटपटीत / झणझणीत", "name": "चिकन मसाला | Chicken Masala", "price": "Rs. 230", "desc": "मऊ चिकनचे तुकडे सुवासिक गरम मसाले आणि दाट ब्राऊन ग्रेव्हीत शिजवलेले झणझणीत चिकन.", "tags": ["Non-Veg", "Main Course"], "img": "img/chicken_masala.jpeg"},
+{"id": 27, "cat": "चटपटीत / झणझणीत", "name": "मटन मसाला | Mutton Masala", "price": "Rs. 350", "desc": "मऊ शिजवलेले मटणाचे तुकडे भरपूर खड्या मसाल्यांच्या घट्ट आणि तिखट रश्यात तयार केलेले.", "tags": ["Non-Veg", "Main Course"], "img": "img/mutton_masala.jpeg"},
+{"id": 28, "cat": "चटपटीत / झणझणीत", "name": "चिकन मालवणी (Half) | Chicken Malvani", "price": "Rs. 300", "desc": "भाजलेले खोबरे आणि अस्सल मालवणी मसाल्यांच्या झणझणीत रश्यात शिजवलेले चिकन (हाफ क्वांटिटी).", "tags": ["Non-Veg", "Main Course"], "img": "img/chicken_malvani_half.jpeg"},
+{"id": 29, "cat": "चटपटीत / झणझणीत", "name": "चिकन मालवणी (Full) | Chicken Malvani", "price": "Rs. 550", "desc": "भाजलेले खोबरे आणि अस्सल मालवणी मसाल्यांच्या झणझणीत रश्यात शिजवलेले चिकन (फुल क्वांटिटी).", "tags": ["Non-Veg", "Main Course"], "img": "img/chicken_malvani_full.jpeg"},
+{"id": 30, "cat": "चटपटीत / झणझणीत", "name": "मटन मालवणी (Half) | Mutton Malvani", "price": "Rs. 450", "desc": "निवडक मऊ मटण पारंपारिक मालवणी पद्धतीच्या सुक्या खोबऱ्याच्या तिखट रश्यात शिजवलेले (हाफ क्वांटिटी).", "tags": ["Non-Veg", "Main Course"], "img": "img/mutton_malvani_half.jpeg"},
+{"id": 31, "cat": "चटपटीत / झणझणीत", "name": "मटन मालवणी (Full) | Mutton Malvani", "price": "Rs. 750", "desc": "निवडक मऊ मटण पारंपारिक मालवणी पद्धतीच्या सुक्या खोबऱ्याच्या तिखट रश्यात शिजवलेले (फुल क्वांटिटी).", "tags": ["Non-Veg", "Main Course"], "img": "img/mutton_malvani_full.jpeg"},
+{"id": 32, "cat": "चटपटीत / झणझणीत", "name": "चिकन जत्रा हंडी (Half) | Chicken Jatra Handi", "price": "Rs. 400", "desc": "मातीच्या हंडीत संथ आचेवर शिजवलेले, जत्रेच्या आठवणी ताज्या करणारे खास मसालेदार चिकन (हाफ क्वांटिटी).", "tags": ["Non-Veg", "Main Course"], "img": "img/chicken_jatra_handi_half.jpeg"},
+{"id": 33, "cat": "चटपटीत / झणझणीत", "name": "चिकन जत्रा हंडी (Full) | Chicken Jatra Handi", "price": "Rs. 750", "desc": "मातीच्या हंडीत संथ आचेवर शिजवलेले, जत्रेच्या आठवणी ताज्या करणारे खास मसालेदार चिकन (फुल क्वांटिटी).", "tags": ["Non-Veg", "Main Course"], "img": "img/chicken_jatra_handi_full.jpeg"},
+{"id": 34, "cat": "चटपटीत / झणझणीत", "name": "मटन जत्रा हंडी (Half) | Mutton Jatra Handi", "price": "Rs. 650", "desc": "विशेष मातीच्या भांड्यात संथ आचेवर सुळसुळीत शिजवलेले शाही आणि गावरान चवीचे मटण (हाफ क्वांटिटी).", "tags": ["Non-Veg", "Main Course"], "img": "img/mutton_jatra_handi_half.jpeg"},
+{"id": 35, "cat": "चटपटीत / झणझणीत", "name": "मटन जत्रा हंडी (Full) | Mutton Jatra Handi", "price": "Rs. 1000", "desc": "विशेष मातीच्या भांड्यात संथ आचेवर सुळसुळीत शिजवलेले शाही आणि गावरान चवीचे मटण (फुल क्वांटिटी).", "tags": ["Non-Veg", "Main Course"], "img": "img/mutton_jatra_handi_full.jpeg"},
+{"id": 36, "cat": "थाळीस", "name": "सुरमई थाळी | Surmai Thali", "price": "APS", "desc": "फ्राय फिश, रस्सा वाटी, स्पेशल फिश ग्रेव्ही, सोलकढी, सुकट वाटी, ३ चपात्या किंवा २ भाकऱ्या, भात आणि कांदा-लिंबू असलेली चवदार थाळी.", "tags": ["Non-Veg", "Thali"], "img": "img/surmai_thali.jpeg"},
+  {"id": 37, "cat": "थाळीस", "name": "पापलेट थाळी | Paplet Thali", "price": "APS", "desc": "कोकणी पद्धतीने बनवलेली अख्खी पापलेट फ्राय आणि सोबत पारंपारिक कोस्टल फिश रस्सा व इतर सर्व पदार्थांची प्रीमियम थाळी.", "tags": ["Non-Veg", "Thali"], "img": "img/paplet_thali.jpeg"},
+  {"id": 38, "cat": "थाळीस", "name": "कोळंबी थाळी | Kolambi Thali", "price": "APS", "desc": "६ पीस कुरकुरीत कोळंबी फ्राय, चवदार कोळंबी ग्रेव्ही (३ पीस) आणि इतर सर्व पारंपरिक सी-फूड पदार्थांची मेजवानी.", "tags": ["Non-Veg", "Thali"], "img": "img/kolambi_thali.jpeg"},
+  {"id": 39, "cat": "थाळीस", "name": "बांगडा थाळी | Bangda Thali", "price": "Rs. 350", "desc": "पारंपरिक पद्धतीने तयार केलेली बांगडा फ्राय, चमचमीत रस्सा आणि सी-फूडच्या इतर सर्व सोबत्यांसह अस्सल मालवणी थाळी.", "tags": ["Non-Veg", "Thali"], "img": "img/bangda_thali.jpeg"},
+  {"id": 40, "cat": "थाळीस", "name": "बोबील थाळी | Bombil Thali", "price": "Rs. 300", "desc": "गरमागरम आणि कुरकुरीत बोंबील फ्राय, सोबत घट्ट कोस्टल रस्सा, भात आणि चपाती/भाकरी यांचे उत्तम मिश्रण.", "tags": ["Non-Veg", "Thali"], "img": "img/bombil_thali.jpeg"},
+  {"id": 41, "cat": "थाळीस", "name": "कटला थाळी | Katla Thali", "price": "Rs. 300", "desc": "कटला फिश फ्राय, फिश रस्सा वाटी, सोलकढी, सुकट वाटी, ३ चपात्या किंवा २ भाकऱ्या, भात आणि कांदा-लिंबू समाविष्ट असलेली थाळी.", "tags": ["Non-Veg", "Thali"], "img": "img/katla_thali.jpeg"},
+  {"id": 42, "cat": "थाळीस", "name": "चिलापी थाळी | Chilapi Thali", "price": "Rs. 300", "desc": "ताज्या चिलापी माशाची फ्राय, रस्सा वाटी, सोलकढी, सुकट वाटी, भात आणि चपाती/भाकरीसह कटला थाळीप्रमाणेच परिपूर्ण बेत.", "tags": ["Non-Veg", "Thali"], "img": "img/chilapi_thali.jpeg"},
+  {"id": 43, "cat": "थाळीस", "name": "मिनी थाळी | Mini Thali", "price": "Rs. 160", "desc": "कमी भुकेसाठी हलकी-फुलकी थाळी; ज्यामध्ये रस्सा वाटी, सोलकढी, सुकट वाटी, २ चपात्या किंवा २ भाकऱ्या, भात आणि कांदा-लिंबू समाविष्ट आहे.", "tags": ["Non-Veg", "Thali"], "img": "img/mini_thali.jpeg"},
+  {"id": 44, "cat": "थाळीस", "name": "चिकन थाळी | Chicken Thali", "price": "Rs. 250", "desc": "सुके चिकन प्लेट, चिकन रस्सा, अंडा वाटी, आळणी रस्सा, सोलकढी, ३ चपात्या किंवा २ भाकऱ्या, भात आणि कांदा-लिंबू असलेली गावरान थाळी.", "tags": ["Non-Veg", "Thali"], "img": "img/chicken_thali.jpeg"},
+  {"id": 45, "cat": "थाळीस", "name": "स्पे. चिकन थाळी | Special Chicken Thali", "price": "Rs. 350", "desc": "शाही बेत! आळणी चिकन प्लेट, चिकन खिमा रस्सा, १ पीस फिश फ्राय आणि इतर सर्व चिकन थाळीच्या पदार्थांसह भरपूर मेजवानी.", "tags": ["Non-Veg", "Thali"], "img": "img/special_chicken_thali.jpeg"},              
+{"id": 46, "cat": "थाळीस", "name": "Mutton Thali | मटन थाळी", "price": "Rs. 350", "desc": "मटण रस्सा, सुके मटण आणि सोबतीला गरमागरम चपाती किंवा भाकरी असलेली स्वादिष्ट थाळी.", "tags": ["Non-Veg", "Thali"], "img": "img/mutton_thali.jpeg"},
+{"id": 47, "cat": "थाळीस", "name": "Sp. Mutton Thali | स्पे. मटन थाळी", "price": "Rs. 470", "desc": "विशेष पद्धतीने बनवलेली मटण थाळी, ज्यामध्ये मटण रस्सा, सुके आणि खास मराठमोळे पदार्थ समाविष्ट आहेत.", "tags": ["Non-Veg", "Thali"], "img": "img/sp_mutton_thali.jpeg"},
+{"id": 48, "cat": "थाळीस", "name": "Chicken Shetkari Thali | चिकन शेतकरी थाळी", "price": "Rs. 200", "desc": "रश्यातील चिकन, बॉईल अंडे, चपाती किंवा २ भाकरी, सोलकढी, भात आणि कांदा लिंबू असलेली गावरान थाळी.", "tags": ["Non-Veg", "Thali"], "img": "img/chicken_shetkari_thali.jpeg"},
+{"id": 49, "cat": "थाळीस", "name": "Mutton Shetkari Thali | मटन शेतकरी थाळी", "price": "Rs. 300", "desc": "चिकन शेतकरी थाळीच्या प्रमाणेच पण रश्यातील मटण, बॉईल अंडे, चपाती/२ भाकरी, सोलकढी, भात आणि कांदा लिंबूसोबत.", "tags": ["Non-Veg", "Thali"], "img": "img/mutton_shetkari_thali.jpeg"},
+{"id": 50, "cat": "थाळीस", "name": "Egg Thali | अंडा थाळी", "price": "Rs. 200", "desc": "अंडा मसाला प्लेट, रस्सा वाटी, सोलकढी, चपाती किंवा २ भाकरी, भात, कांदा लिंबू आणि १ आमलेट.", "tags": ["Non-Veg", "Thali"], "img": "img/egg_thali.jpeg"},
+{"id": 51, "cat": "बिर्याणी आणि राईस", "name": "Plain Indrayani Rice (Wati) | प्लेन इंद्रायणी राईस (वाटी)", "price": "Rs. 40", "desc": "सुवासिक आणि मऊ शिजवलेला प्लेन इंद्रायणी भात (एक वाटी).", "tags": ["Veg", "Rice"], "img": "img/plain_indrayani_rice_wati.jpeg"},
+{"id": 52, "cat": "बिर्याणी आणि राईस", "name": "Plain Indrayani Rice (Half) | प्लेन इंद्रायणी राईस (हाफ)", "price": "Rs. 70", "desc": "सुवासिक आणि मऊ शिजवलेला प्लेन इंद्रायणी भात (हाफ प्लेट).", "tags": ["Veg", "Rice"], "img": "img/plain_indrayani_rice_half.jpeg"},
+{"id": 53, "cat": "बिर्याणी आणि राईस", "name": "Plain Indrayani Rice (Full) | प्लेन इंद्रायणी राईस (फुल)", "price": "Rs. 120", "desc": "सुवासिक आणि मऊ शिजवलेला प्लेन इंद्रायणी भात (फुल प्लेट).", "tags": ["Veg", "Rice"], "img": "img/plain_indrayani_rice_full.jpeg"},
+{"id": 54, "cat": "बिर्याणी आणि राईस", "name": "Jeera Rice (Wati) | जिरा राईस (वाटी)", "price": "Rs. 50", "desc": "जिऱ्याची खमंग फोडणी देऊन बनवलेला चवदार भात (एक वाटी).", "tags": ["Veg", "Rice"], "img": "img/jeera_rice_wati.jpeg"},
+{"id": 55, "cat": "बिर्याणी आणि राईस", "name": "Jeera Rice (Half) | जिरा राईस (हाफ)", "price": "Rs. 80", "desc": "जिऱ्याची खमंग फोडणी देऊन बनवलेला चवदार भात (हाफ प्लेट).", "tags": ["Veg", "Rice"], "img": "img/jeera_rice_half.jpeg"},
+{"id": 56, "cat": "बिर्याणी आणि राईस", "name": "Jeera Rice (Full) | जिरा राईस (फुल)", "price": "Rs. 130", "desc": "जिऱ्याची खमंग फोडणी देऊन बनवलेला चवदार भात (फुल प्लेट).", "tags": ["Veg", "Rice"], "img": "img/jeera_rice_full.jpeg"},
+{"id": 57, "cat": "बिर्याणी आणि राईस", "name": "Veg Biryani | व्हेज बिर्याणी", "price": "Rs. 170", "desc": "ताजी ताजी भाजी, सुवासिक बासमती तांदूळ आणि मसाल्यांचे मिश्रण करून बनवलेली व्हेज बिर्याणी.", "tags": ["Veg", "Biryani"], "img": "img/veg_biryani.jpeg"},
+{"id": 58, "cat": "बिर्याणी आणि राईस", "name": "Chicken Biryani | चिकन बिर्याणी", "price": "Rs. 220", "desc": "मऊ चिकनचे तुकडे आणि खास मसाल्यांच्या थरांनी सजवलेली दम चिकन बिर्याणी.", "tags": ["Non-Veg", "Biryani"], "img": "img/chicken_biryani.jpeg"},
+{"id": 59, "cat": "बिर्याणी आणि राईस", "name": "Mutton Biryani | मटन बिर्याणी", "price": "Rs. 390", "desc": "उत्कृष्ठ दर्जाचे मटण आणि बासमती तांदळापासून तयार केलेली शाही मटण बिर्याणी.", "tags": ["Non-Veg", "Biryani"], "img": "img/mutton_biryani.jpeg"},
+{"id": 60, "cat": "बिर्याणी आणि राईस", "name": "Kolambi Biryani | कोळंबी बिर्याणी", "price": "Rs. 450", "desc": "ताज्या कोळंबी (झींगे) आणि मसाल्यांच्या योग्य मिलाफातून बनवलेली चवदार सी-फूड बिर्याणी.", "tags": ["Non-Veg", "Biryani"], "img": "img/kolambi_biryani.jpeg"},
+{"id": 61, "cat": "बिर्याणी आणि राईस", "name": "Dal Khichdi | दाल खिचडी", "price": "Rs. 150", "desc": "डाळ आणि तांदळाचे साधे, पचायला हलके आणि चवदार मिश्रण; तुपाची फोडणी देऊन तयार.", "tags": ["Veg", "Rice"], "img": "img/dal_khichdi.jpeg"},
+{"id": 62, "cat": "व्हेज थाळी", "name": "Veg Thali | व्हेज थाळी", "price": "Rs. 190", "desc": "सुकी भाजी, पालेभाजी, वरण, ३ चपात्या किंवा २ भाकऱ्या, चटणी, पापड, लोणचे, भात आणि कांदा-लिंबू असलेली परिपूर्ण व्हेज थाळी.", "tags": ["Veg", "Thali"], "img": "img/veg_thali.jpeg"},
+{"id": 63, "cat": "व्हेज थाळी", "name": "Sp. Veg Thali | स्पे. व्हेज थाळी", "price": "Rs. 250", "desc": "सुकी भाजी, स्पेशल पनीर किंवा मिक्स व्हेज भाजी, दाल फ्राय, भात, ३ चपात्या किंवा २ भाकऱ्या, चटणी, लोणचे, पापड, गोड खीर आणि कांदा-लिंबू मेजवानी.", "tags": ["Veg", "Thali"], "img": "img/sp_veg_thali.jpeg"},
+{"id": 64, "cat": "व्हेज थाळी", "name": "Shetkari Thali | शेतकरी थाळी", "price": "Rs. 150", "desc": "पारंपरिक मराठमोळी चव; गरमागरम पिठलं (झुणका), झणझणीत ठेचा, तेल-चटणी आणि कांदा-लिंबू असलेली गावरान थाळी.", "tags": ["Veg", "Thali"], "img": "img/shetkari_thali.jpeg"},
+{"id": 65, "cat": "व्हेज डिशेस", "name": "Paneer Masala | पनीर मसाला", "price": "Rs. 200", "desc": "मऊ पनीरचे तुकडे चमचमीत आणि चवदार कढी-मसाल्यामध्ये शिजवलेले.", "tags": ["Veg", "Main Course"], "img": "img/paneer_masala.jpeg"},
+{"id": 66, "cat": "व्हेज डिशेस", "name": "Kaju Masala | काजू मसाला", "price": "Rs. 200", "desc": "खमंग भाजलेले काजू रिच आणि क्रीमी ग्रेव्हीमध्ये तयार केलेले.", "tags": ["Veg", "Main Course"], "img": "img/kaju_masala.jpeg"},
+{"id": 67, "cat": "व्हेज डिशेस", "name": "Paneer Kaju Masala | पनीर काजू मसाला", "price": "Rs. 220", "desc": "मऊ पनीर आणि रिच काजू यांचे एकत्र मिश्रण असलेली शाही आणि चवदार ग्रेव्ही भाजी.", "tags": ["Veg", "Main Course"], "img": "img/paneer_kaju_masala.jpeg"},
+{"id": 68, "cat": "व्हेज डिशेस", "name": "Veg Kolhapuri | व्हेज कोल्हापुरी", "price": "Rs. 180", "desc": "ताजा भाज्या वापरून बनवलेली तिखट आणि झणझणीत कोल्हापुरी स्टाईल व्हेज भाजी.", "tags": ["Veg", "Main Course"], "img": "img/veg_kolhapuri.jpeg"},
+{"id": 69, "cat": "व्हेज डिशेस", "name": "Dal Fry | दाल充萊", "price": "Rs. 160", "desc": "मसाले, टोमॅटो आणि कोथिंबीर घालून तडका दिलेली पारंपारिक आणि चवदार डाळ.", "tags": ["Veg", "Main Course"], "img": "img/dal_fry.jpeg"},
+{"id": 70, "cat": "व्हेज डिशेस", "name": "Mix Veg | मिक्स व्हेज", "price": "Rs. 180", "desc": "अनेक ताज्या आणि निवडक भाज्या एकत्र करून बनवलेली चवदार सुकी भाजी.", "tags": ["Veg", "Main Course"], "img": "img/mix_veg.jpeg"},
+{"id": 71, "cat": "व्हेज डिशेस", "name": "Veg Handi (Half) | व्हेज हंडी (हाफ)", "price": "Rs. 250", "desc": "विशेष मसाल्यांच्या ग्रेव्हीत शिजवलेली मिक्स व्हेज हंडी भाजी (हाफ क्वांटिटी).", "tags": ["Veg", "Main Course"], "img": "img/veg_handi_half.jpeg"},
+{"id": 72, "cat": "व्हेज डिशेस", "name": "Veg Handi (Full) | व्हेज हंडी (फुल)", "price": "Rs. 400", "desc": "विशेष मसाल्यांच्या ग्रेव्हीत शिजवलेली मिक्स व्हेज हंडी भाजी (फुल क्वांटिटी).", "tags": ["Veg", "Main Course"], "img": "img/veg_handi_full.jpeg"},
+{"id": 73, "cat": "रोटी आणि भाकरी", "name": "Bhakri (Bajri/Jwari) | भाकरी (बाजरी/ज्वारी)", "price": "Rs. 30", "desc": "चुलीवरची किंवा तव्यावर शेकलेली गरमागरम आणि पौष्टिक बाजरी किंवा ज्वारीची भाकरी.", "tags": ["Veg", "Roti"], "img": "img/bhakri.jpeg"},
+{"id": 74, "cat": "रोटी आणि भाकरी", "name": "Tandlachi Bhakri | तांदळाची भाकरी", "price": "Rs. 35", "desc": "मऊ आणि गरमागरम पारंपारिक कोकणी स्टाईल तांदळाची भाकरी.", "tags": ["Veg", "Roti"], "img": "img/tandlachi_bhakri.jpeg"},
+{"id": 75, "cat": "रोटी आणि भाकरी", "name": "Chapati | चपाती", "price": "Rs. 25", "desc": "गव्हाच्या पिठापासून बनवलेली मऊ आणि घडीची घरगुती पद्धतीची चपाती.", "tags": ["Veg", "Roti"], "img": "img/chapati.jpeg"},              
           
 
 
